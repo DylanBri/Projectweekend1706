@@ -15,7 +15,7 @@ namespace Projectweekend1706
             throw new NotImplementedException();
         }
 
-        public List<int> Prisme(int number)
+        public List<int> Primes(int number)
         {
             List<int> Premier = new List<int>();
             int m = number / 2;

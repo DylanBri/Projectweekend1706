@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Projectweekend1706
 {
-    interface Interface2
+    interface IImmatriculation
     {
+       // string GetImmatriculation();
     }
 }

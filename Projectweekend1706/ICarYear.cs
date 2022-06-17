@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Projectweekend1706
 {
-    interface Interface1
+    interface ICarYear
     {
+        //int GetAnne();
     }
 }

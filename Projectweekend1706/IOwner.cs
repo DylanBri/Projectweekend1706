@@ -8,5 +8,6 @@ namespace Projectweekend1706
 {
     interface IOwner
     {
+       // string GetOwner();
     }
 }
