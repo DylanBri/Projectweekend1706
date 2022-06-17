@@ -8,5 +8,6 @@ namespace Projectweekend1706
 {
     class ParcAuto
     {
+        List<Voitures> voitures = new List<Voitures>();
     }
 }
