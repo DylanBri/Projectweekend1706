@@ -66,6 +66,7 @@ namespace Projectweekend1706
                 
 
             }
+            Console.WriteLine("Voitures ajoutee :" + voitures.Count());
             return voitures;
 
         }
