@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Projectweekend1706
 {
-    class ParcAuto
+    public class ParcAuto
     {
-        List<Voitures> voitures = new List<Voitures>();
+        
+        public Proprio proprios = new Proprio();
+       
+        
+
+
     }
 }

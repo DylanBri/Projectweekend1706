@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Projectweekend1706
 {
-    class Voitures
+    public class Voitures
     {
         public string plaque;
         public string annee;
-        public Proprio proprio;
 
+        public Dictionary<string, Voitures> allVoitures;
         public Voitures(string pPlaque, string pAnne)
         {
             pPlaque = plaque;

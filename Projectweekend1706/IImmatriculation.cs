@@ -8,6 +8,6 @@ namespace Projectweekend1706
 {
     interface IImmatriculation
     {
-       // string GetImmatriculation();
+     public  string GetImmatriculation(string pays);
     }
 }
