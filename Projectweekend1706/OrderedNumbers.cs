@@ -15,24 +15,26 @@ namespace Projectweekend1706
             throw new NotImplementedException();
         }
 
-        public List<int> Primes(int number)
+        public static List<int> Primes()
         {
-            List<int> Premier = new List<int>();
-            int m = number / 2;
-            bool flag = false;
-            for (int i = 2; i <= m; i++)
+            List<int> list = new List<int>();
+            for (int i = 1000; i <= 9999; i++)
             {
-                if (number % i == 0)
+                int number = i, a = 0;
+                for (int j = 1; j <= number; j++)
                 {
-                    flag = true;
-                    break;
+                    if (number % j == 0)
+                    {
+                        a++;
+                    }
+                }
+            
+                if (a == 2)
+                {
+                    list.Add(number);
                 }
             }
-            if (flag == false)
-            {
-                Premier.Add(number);
-            }
-            return Premier;
+            return list;
         }
 
     }

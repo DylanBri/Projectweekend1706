@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projectweekend1706
 {
-    class Proprio
+    public class Proprio
     {
         public string nom;
         public string rue;
@@ -14,5 +14,15 @@ namespace Projectweekend1706
         public string codePostale;
         public string pays;
         public Voitures voiture;
+
+        public Proprio(string pNom, string pRue, string pVille, string pCodePostale, string pPays, Voitures pVoiture)
+        {
+            nom = pNom;
+            rue = pRue;
+            ville = pVille;
+            codePostale = pCodePostale;
+            pays = pPays;
+            voiture = pVoiture;
+        }
     }
 }
